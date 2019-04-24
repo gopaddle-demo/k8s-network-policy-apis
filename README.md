@@ -1,3 +1,13 @@
+---
+title: Kubernetes Network Policy APIs
+header-includes:
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:site" content="octetz.com" />
+    <meta name="twitter:title" content="Kubernetes Network Policy APIs" />
+    <meta name="twitter:description" content="In this post we explore and compare the various network policy APIs available when working with Kubernetes!" />
+    <meta name="twitter:image" content="https://octetz.com/posts/img/netpol-banner.png" />
+---
+
 # Kubernetes Network Policy APIs
 
 This post explores multiple ways network policy can be expressed in Kubernetes. This includes the native API and CNI-plugin specific Custom Resource Definitions (CRD). By understanding these different approaches, you will be able to make an informed decision around what is best for your environment!
